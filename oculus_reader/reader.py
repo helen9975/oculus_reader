@@ -19,7 +19,7 @@ class OculusReader:
             ip_address=None,
             port = 5555,
             APK_name='com.rail.oculus.teleop',
-            print_FPS=False,
+            print_FPS=True,
             run=True
         ):
         self.running = False
